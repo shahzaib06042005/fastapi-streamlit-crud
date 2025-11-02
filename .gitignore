@@ -1,0 +1,16 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+venv/
+
+# Ignore local database (optional)
+items.db
+
+# Ignore Streamlit temporary files
+.streamlit/cache/
+
+# Ignore VSCode and system files
+.vscode/
+.DS_Store
