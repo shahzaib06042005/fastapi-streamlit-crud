@@ -11,3 +11,9 @@ cd fastapi-streamlit-crud
 
 # Install all required dependencies
 pip install -r requirements.txt
+
+# Run FastAPI backend
+uvicorn main:app --reload
+
+# In a new terminal, run Streamlit frontend
+streamlit run app_frontend.py
